@@ -1,2 +1,2 @@
 # ThreaderAI
-ThreaderAI, template-based prediction of protein structure using deep learing based scoring.
+ThreaderAI, template-based prediction of protein structure with deep learing.
