@@ -30,14 +30,14 @@ tmlist=${base_dir}/tm.list
 #template_feature_dir=/data/hz2529/zion/pdbdata/copy2
 
 
-output=${base_dir}/${name}/${name}.threaderai
+#output=${base_dir}/${name}/${name}.threaderai
  
-python3.7 ./show_alignment.py \
-	--aligned_pairs ${base_dir}/${name}/${name}.aligned_pairs \
-	--query ${name} \
-	--sequence_dir ${query_feature_dir} \
-	--structure_dir ${template_feature_dir} \
-	--output ${output}
-
-#build_model
-bash /home/hz2529/repos/structure_utility/casp/calc_threaderai_model.sh ${name}
+#python3.7 ./show_alignment.py \
+#	--aligned_pairs ${base_dir}/${name}/${name}.aligned_pairs \
+#	--query ${name} \
+#	--sequence_dir ${query_feature_dir} \
+#	--structure_dir ${template_feature_dir} \
+#	--output ${output}
+#
+##build_model
+#bash /home/hz2529/repos/structure_utility/casp/calc_threaderai_model.sh ${name}
